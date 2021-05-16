@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
   s.dependency 'AcuantiOSSDKV11/AcuantImagePreparation', '~> 11.4.10'
   s.dependency 'AcuantiOSSDKV11/AcuantHGLiveness', '~> 11.4.10'
   s.dependency 'AcuantiOSSDKV11/AcuantDocumentProcessing', '~> 11.4.10'
-  s.dependency 'AcuantiOSSDKV11/AcuantCamera'
+  s.dependency 'AcuantiOSSDKV11/AcuantCamera', '~> 11.4.10'
 end
