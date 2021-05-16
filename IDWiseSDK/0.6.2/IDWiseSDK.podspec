@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'IDWiseSDK/Classes/**/*'
   
-  s.swift_version = '5.0'
+  s.swift_versions = ['5.3.2']
   
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
