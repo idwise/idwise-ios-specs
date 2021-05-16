@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author           = { 'IDWise LTD' => 'https://www.idwise.com/' }
   s.source           = { :git => 'https://github.com/idwise/idwise-ios-sdk.git', :tag => '0.6.2' }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'IDWiseSDK/Classes/**/*'
   
