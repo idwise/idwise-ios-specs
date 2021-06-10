@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-  s.dependency 'AcuantiOSSDKV11/AcuantImagePreparation', :commit => '148ffa901c1c3cc7be20bceb5a5037253be21f5c'
-  s.dependency 'AcuantiOSSDKV11/AcuantHGLiveness', :commit => '148ffa901c1c3cc7be20bceb5a5037253be21f5c'
-  s.dependency 'AcuantiOSSDKV11/AcuantDocumentProcessing', :commit => '148ffa901c1c3cc7be20bceb5a5037253be21f5c'
+  s.dependency 'AcuantiOSSDKV11/AcuantImagePreparation', :commit => 'dc00a53'
+  s.dependency 'AcuantiOSSDKV11/AcuantHGLiveness', :commit => 'dc00a53'
+  s.dependency 'AcuantiOSSDKV11/AcuantDocumentProcessing', :commit => 'dc00a53'
   s.dependency 'AcuantiOSSDKV11/AcuantCamera'
 end
