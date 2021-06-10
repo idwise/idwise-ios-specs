@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.idwise.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ideal Enterprise Solutions LTD' => 'https://www.idwise.com/' }
-  s.source           = { :git => 'https://github.com/idwise/idwise-ios-sdk.git', :branch => 'add_cancel_journey_btn' :tag => '0.6.3'  }
+  s.source           = { :git => 'https://github.com/idwise/idwise-ios-sdk.git', :branch => 'add_cancel_journey_btn', :tag => '0.6.3'  }
 
   s.ios.deployment_target = '11.0'
 
